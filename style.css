@@ -1,0 +1,20 @@
+body{
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    transition: background 10s;
+}
+
+.box1, .box2, .box3, .box4 {
+    width: 22%;
+    height: 200px;
+    display: inline-block;
+    margin: 1%;
+    box-shadow: 0 0 4px rgba(13, 13, 13, 0.51);
+}
+
+.box1 { background: green; }
+.box2 { background: blue; }
+.box3 { background: red; }
+.box4 { background: yellow; }
